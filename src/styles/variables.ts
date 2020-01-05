@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 export const colors = {
-  brand: '#663399',
+  brand: '#161616',
   lilac: '#9d7cbf',
   accent: '#ffb238',
   success: '#37b635',
@@ -15,7 +15,8 @@ export const colors = {
   gray: {
     dark: 'hsla(270, 17.119554496%, 0%, 0.92)',
     copy: 'hsla(270, 15.797828016000002%, 0%, 0.88)',
-    calm: 'rgba(0, 0, 0, 0.54)'
+    calm: 'rgba(0, 0, 0, 0.54)',
+    my: '#393939'
   },
   white: '#fff',
   black: '#000'

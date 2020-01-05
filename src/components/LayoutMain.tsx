@@ -1,10 +1,12 @@
 import * as React from 'react'
 import styled from '@emotion/styled'
+import background from '../images/background.png'
 
 const StyledLayoutMain = styled.main`
   display: flex;
   flex-direction: column;
   flex: 1;
+  background-image: url(${background});
 `
 
 interface LayoutMainProps {

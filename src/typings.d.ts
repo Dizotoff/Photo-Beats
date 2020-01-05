@@ -1,7 +1,7 @@
 interface CSSModule {
   [className: string]: string
 }
-
+declare module '*.png'
 // type shims for CSS modules
 
 declare module '*.module.scss' {

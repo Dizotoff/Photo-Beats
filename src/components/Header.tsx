@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import { transparentize } from 'polished'
 import { Link } from 'gatsby'
 
-import { heights, dimensions, colors } from '../styles/variables'
+import { heights, dimensions, colors, fonts } from '../styles/variables'
 import Container from './Container'
 
 const StyledHeader = styled.header`
@@ -11,6 +11,7 @@ const StyledHeader = styled.header`
   padding: 0 ${dimensions.containerPadding}rem;
   background-color: ${colors.brand};
   color: ${transparentize(0.5, colors.white)};
+  border-bottom: 1px solid ${colors.gray.my};
 `
 
 const HeaderInner = styled(Container)`
@@ -24,7 +25,7 @@ const HomepageLink = styled(Link)`
   color: ${colors.white};
   font-size: 1.5rem;
   font-weight: 600;
-
+  font-family: ${fonts.monospace};
   &:hover,
   &:focus {
     text-decoration: none;

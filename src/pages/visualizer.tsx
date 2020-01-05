@@ -5,7 +5,7 @@ import Page from '../components/Page'
 import Container from '../components/Container'
 import IndexLayout from '../layouts'
 
-const PageTwo = () => (
+const VisualizerPage = () => (
   <IndexLayout>
     <Page>
       <Container>
@@ -24,4 +24,4 @@ const PageTwo = () => (
   </IndexLayout>
 )
 
-export default PageTwo
+export default VisualizerPage
