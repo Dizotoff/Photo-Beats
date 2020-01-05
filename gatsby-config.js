@@ -2,14 +2,14 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-starter-typescript-plus',
-    description: 'A starter kit for TypeScript-based Gatsby projects with sensible defaults.',
-    keywords: 'gatsbyjs, gatsby, javascript, sample, something',
-    siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
+    title: 'Photo-Beats',
+    description: 'Online visualizer which picks sound from your mic and uses provided images to create audio responsive visualisations',
+    keywords: 'music, art, artist, audio, responsive, visuals, easy, online, photos, pictures, images, web, techno, edm, soundcloud',
+    siteUrl: 'https://photo-beats.com',
     author: {
-      name: 'Resi Respati',
-      url: 'https://twitter.com/resir014',
-      email: 'resir014@gmail.com'
+      name: 'Dmytro Izotov',
+      url: 'https://twitter.com/dizotoff',
+      email: 'izotov.dima@gmail.com'
     }
   },
   plugins: [
@@ -48,7 +48,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com'
+        siteUrl: 'https://photo-beats.com'
       }
     },
     'gatsby-plugin-emotion',

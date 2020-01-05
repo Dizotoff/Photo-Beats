@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-typescript-plus",
-  "description": "A starter kit for TypeScript-based Gatsby projects with sensible defaults.",
-  "version": "1.0.0",
+  "name": "photobeats",
+  "description": "Creation of audio responsive visuals online",
+  "version": "0.0.1",
   "private": true,
-  "author": "Resi Respati <resir014@gmail.com>",
+  "author": "Dmytro Izotov <izotov.dima@gmail.com>",
   "keywords": [
     "gatsby"
   ],
