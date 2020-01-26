@@ -4,7 +4,8 @@ interface AudioInput {}
 
 const AudioInput: React.FC<AudioInput> = () => {
   let src
-  let context = new AudioContext()
+
+  let context = typeof window !== 'undefined' && new AudioContext()
   let analyser = context.createAnalyser()
   let array = new Uint8Array(64)
 
