@@ -1,24 +1,22 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
-
+import { Canvas } from 'react-three-fiber'
 import Page from '../components/Page'
 import Container from '../components/Container'
 import IndexLayout from '../layouts'
+import Three from '../components/Three'
+import AudioInput from '../components/AudioInput'
 
 const VisualizerPage = () => (
   <IndexLayout>
     <Page>
       <Container>
-        <h1>Hi from the second page</h1>
-        <p>Welcome to page 2</p>
-        <ul>
-          <li>
-            <Link to="/a-markdown-page/">Show me some Markdown!</Link>
-          </li>
-          <li>
-            <Link to="/">Take me back home.</Link>
-          </li>
-        </ul>
+        <Canvas>
+          <ambientLight />
+          <pointLight position={[10, 10, 10]} />
+          <Three position={[-1.2, 0, 0]} />
+          <Three position={[1.2, 0, 0]} />
+        </Canvas>
+        <AudioInput />
       </Container>
     </Page>
   </IndexLayout>
