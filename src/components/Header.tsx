@@ -9,7 +9,7 @@ import Container from './Container'
 const StyledHeader = styled.header`
   height: ${heights.header}px;
   padding: 0 ${dimensions.containerPadding}rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: ${transparentize(0.9, colors.black)};
   color: ${transparentize(0.5, colors.white)};
   border-bottom: 1px solid ${colors.gray.my};
   z-index: 1;
