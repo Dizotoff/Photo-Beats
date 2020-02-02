@@ -10,15 +10,15 @@ import video from '../videos/vhs.mp4'
 const IndexPage = () => (
   <IndexLayout>
     <BackgroundVideo
-      containerHeight={window.innerHeight}
-      containerWidth={window.innerWidth}
+      containerHeight={window && window.innerHeight}
+      containerWidth={window && window.innerWidth}
       src={video}
       autoPlay={true}
       playsInline={true}
     />
     <Page>
       <Container>
-        <div style={{ height: window.innerHeight, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{ height: window && window.innerHeight, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <div style={{ paddingBottom: '0px' }}>
             <h1>Live synchronised music video right in your browser</h1>
           </div>
