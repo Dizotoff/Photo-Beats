@@ -4,16 +4,16 @@ import styled from '@emotion/styled'
 interface HeroBanner {
   heading: string
   text: string
+  img: string
 }
 
-const HeroBannerWrapper = styled.div`
-  z-index: 100;
-`
+const HeroBannerWrapper = styled.div``
 
-const HeroBanner: React.FC<HeroBanner> = ({ heading, text }) => (
+const HeroBanner: React.FC<HeroBanner> = ({ heading, text, img }) => (
   <HeroBannerWrapper>
     {heading}
     {text}
+    {img}
   </HeroBannerWrapper>
 )
 
