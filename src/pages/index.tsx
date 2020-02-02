@@ -5,12 +5,24 @@ import Page from '../components/Page'
 import Container from '../components/Container'
 import IndexLayout from '../layouts'
 import HeroBanner from './../components/HeroBanner'
-
+import BackgroundVideo from 'react-background-video-player'
+import video from '../videos/vhs.mp4'
 const IndexPage = () => (
   <IndexLayout>
+    <BackgroundVideo
+      containerHeight={window.innerHeight}
+      containerWidth={window.innerWidth}
+      src={video}
+      autoPlay={true}
+      playsInline={true}
+    />
     <Page>
       <Container>
-        <h1>Live synchronised music video right in your browser</h1>
+        <div style={{ height: window.innerHeight, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <div style={{ paddingBottom: '0px' }}>
+            <h1>Live synchronised music video right in your browser</h1>
+          </div>
+        </div>
 
         <p>
           It's easy and quick way to create an unique graphics. Apply some filters on top to make it look even more funky. Filters also can

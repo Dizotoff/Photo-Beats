@@ -7,7 +7,7 @@ const AudioInput: React.FC<AudioInput> = () => {
   if (typeof window !== 'undefined') {
     let context = new AudioContext()
     let analyser = context.createAnalyser()
-    let array = new Uint8Array(64)
+    let dataArray = new Uint8Array(64)
 
     navigator.mediaDevices
       .getUserMedia({ audio: true })
@@ -18,7 +18,35 @@ const AudioInput: React.FC<AudioInput> = () => {
       .catch(error => {
         alert(error + 'OTKLONENO')
       })
-    analyser.getByteFrequencyData(array)
+
+    setTimeout(() => {
+      analyser.getByteFrequencyData(dataArray)
+      console.log(dataArray)
+    }, 1000)
+    setTimeout(() => {
+      analyser.getByteFrequencyData(dataArray)
+      console.log(dataArray)
+    }, 1000)
+    setTimeout(() => {
+      analyser.getByteFrequencyData(dataArray)
+      console.log(dataArray)
+    }, 1000)
+    setTimeout(() => {
+      analyser.getByteFrequencyData(dataArray)
+      console.log(dataArray)
+    }, 1000)
+    setTimeout(() => {
+      analyser.getByteFrequencyData(dataArray)
+      console.log(dataArray)
+    }, 1000)
+    setTimeout(() => {
+      analyser.getByteFrequencyData(dataArray)
+      console.log(dataArray)
+    }, 1000)
+    setTimeout(() => {
+      analyser.getByteFrequencyData(dataArray)
+      console.log(dataArray)
+    }, 1000)
   }
   return <div></div>
 }
