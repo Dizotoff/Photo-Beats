@@ -57,7 +57,7 @@ export default class Player extends Component<{}, PlayerShape> {
           src={video}
           startTime={1}
           autoPlay={true}
-          volume={0}
+          muted={true}
         />
       </div>
     )
