@@ -29,6 +29,7 @@
     "@types/webaudioapi": "0.0.27",
     "babel-plugin-styled-components": "^1.10.1",
     "classnames": "^2.2.6",
+    "domready": "^1.0.8",
     "gatsby": "^2.10.0",
     "gatsby-image": "^2.2.1",
     "gatsby-plugin-canonical-urls": "^2.1.0",
