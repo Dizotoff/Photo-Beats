@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
 import BackgroundVideo from 'react-background-video-player'
 import video from '../videos/vhs.mp4'
-document.body.style.position = 'absolute'
-document.body.style.margin = '0'
-document.body.style.width = '100%'
-document.body.style.height = '100%'
-document.body.style.overflow = 'hidden'
+
+if (document) {
+  document.body.style.position = 'absolute'
+  document.body.style.margin = '0'
+  document.body.style.width = '100%'
+  document.body.style.height = '100%'
+  document.body.style.overflow = 'hidden'
+}
 
 interface PlayerShape {
   windowWidth: any
