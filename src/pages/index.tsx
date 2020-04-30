@@ -29,7 +29,7 @@ const IndexPage = () => {
                 alignItems: 'center'
               }}
             >
-              <h1>Live synchronised music video right in your browser</h1>
+              <h1 style={{ textAlign: 'center' }}>REAL-TIME AUDIO REACTIVE VISUALS IN THE BROWSER</h1>
             </div>
           </div>
         </Container>
