@@ -27,18 +27,24 @@ export default class Player extends Component<{}, PlayerShape> {
   }
 
   componentDidMount() {
-    window.addEventListener('resize', this.handleResize)
+    if (typeof window !== 'undefined') {
+      window.addEventListener('resize', this.handleResize)
+    }
   }
 
   componentWillMount() {
-    window.removeEventListener('resize', this.handleResize)
+    if (typeof document !== 'undefined') {
+      window.removeEventListener('resize', this.handleResize)
+    }
   }
 
   handleResize = () => {
-    this.setState({
-      windowWidth: window.innerWidth,
-      windowHeight: window.innerHeight
-    })
+    if (typeof document !== 'undefined') {
+      this.setState({
+        windowWidth: window.innerWidth,
+        windowHeight: window.innerHeight
+      })
+    }
   }
 
   render() {
