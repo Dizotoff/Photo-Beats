@@ -2,19 +2,12 @@ import * as React from 'react'
 import Page from '../components/Page'
 import Container from '../components/Container'
 import IndexLayout from '../layouts'
-import BackgroundVideo from 'react-background-video-player'
-import video from '../videos/vhs.mp4'
+import Player from '../components/Player'
+import domready from 'domready'
+
 const IndexPage = () => (
   <IndexLayout>
-    <BackgroundVideo
-      style={{ display: 'inline' }}
-      containerHeight={typeof window !== 'undefined' ? window.innerHeight : 0}
-      containerWidth={typeof window !== 'undefined' ? window.innerWidth : 0}
-      src={video}
-      autoPlay={true}
-      playsInline={true}
-    ></BackgroundVideo>
-
+    <Player />
     <Page>
       <Container>
         <div>
