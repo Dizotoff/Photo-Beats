@@ -21,8 +21,8 @@ export default class Player extends Component<{}, PlayerShape> {
   constructor(props) {
     super(props)
     this.state = {
-      windowWidth: window.innerWidth,
-      windowHeight: window.innerHeight
+      windowWidth: typeof window !== 'undefined' ? window.innerWidth : '100vw',
+      windowHeight: typeof window !== 'undefined' ? window.innerHeight : '100vh'
     }
   }
 
