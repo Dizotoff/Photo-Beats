@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import BackgroundVideo from 'react-background-video-player'
 import video from '../videos/vhs.mp4'
-import domready from 'domready'
 
 if (typeof document !== 'undefined') {
   document.body.style.position = 'absolute'
