@@ -6,7 +6,7 @@ import Player from '../components/Player'
 import domready from 'domready'
 
 const IndexPage = () => {
-  if (typeof document !== 'undefined' && typeof window !== 'undefined') {
+  if (typeof document !== 'undefined') {
     domready(() => {
       console.log('DOM is ready')
     })
