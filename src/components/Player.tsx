@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import BackgroundVideo from 'react-background-video-player'
 import video from '../videos/vhs.mp4'
+import domready from 'domready'
 
-if (document) {
+if (typeof document !== 'undefined') {
   document.body.style.position = 'absolute'
   document.body.style.margin = '0'
   document.body.style.width = '100%'
@@ -43,6 +44,7 @@ export default class Player extends Component<{}, PlayerShape> {
   render() {
     return (
       <div style={{ position: 'absolute', width: ' 100%', height: '100%' }}>
+        {}
         <BackgroundVideo
           ref={p => (this.player = p)}
           containerWidth={this.state.windowWidth}

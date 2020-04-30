@@ -3,7 +3,7 @@ import Page from '../components/Page'
 import Container from '../components/Container'
 import IndexLayout from '../layouts'
 import Player from '../components/Player'
-import domready from 'domready'
+
 
 const IndexPage = () => {
   return (
