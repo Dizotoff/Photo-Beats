@@ -27,6 +27,7 @@
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
     "@types/webaudioapi": "0.0.27",
+    "antd": "^4.2.0",
     "babel-plugin-styled-components": "^1.10.1",
     "classnames": "^2.2.6",
     "domready": "^1.0.8",

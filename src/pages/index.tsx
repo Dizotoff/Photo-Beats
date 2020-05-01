@@ -17,22 +17,31 @@ const IndexPage = () => {
       <Player />
 
       <Page>
-        <Container>
+        <div
+          style={{
+            width: '100vw',
+            height: '100vh',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            textAlign: 'center'
+          }}
+        >
           <div>
-            <div
-              style={{
-                height: `100vh`,
-                margin: '15px',
-                backgroundColor: 'transparent',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}
-            >
-              <h1 style={{ textAlign: 'center' }}>REAL-TIME AUDIO REACTIVE VISUALS IN THE BROWSER</h1>
-            </div>
+            <h1 style={{ textAlign: 'center' }}>REAL-TIME AUDIO REACTIVE VISUALS IN THE BROWSER</h1>
+            <p></p>
+
+            <p>Submit your email and we will notify you on launch!</p>
+            <form name="contact" method="POST" data-netlify="true">
+              <label>
+                Email: <input type="email" name="email" />
+              </label>
+              <button style={{}} type="submit">
+                Send
+              </button>
+            </form>
           </div>
-        </Container>
+        </div>
       </Page>
     </IndexLayout>
   )
