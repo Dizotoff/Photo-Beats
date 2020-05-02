@@ -11,7 +11,7 @@ const { Title } = Typography
 const { Text } = Typography
 const IndexPage = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "black" }}>
       <SEO title="Home" />
       <Layout>
         <div
