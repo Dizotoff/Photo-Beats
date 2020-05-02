@@ -26,7 +26,6 @@ const IndexPage = () => (
 
       <div style={{ color: "white", zIndex: "1" }}>
         <Title style={{ color: "white", textAlign: "center", margin: "8px" }}>
-          {" "}
           REAL-TIME AUDIO REACTIVE VISUALS IN THE BROWSER
         </Title>
 
@@ -37,8 +36,8 @@ const IndexPage = () => (
         </Text>
 
         <form name="contact" method="POST" data-netlify="true">
-          <Input
-            style={{ width: "200px", margin: "8px", zIndex: "1" }}
+          <input
+            style={{ width: "200px", margin: "8px", color: "black" }}
             name="email"
             type="email"
             placeholder="Email"
