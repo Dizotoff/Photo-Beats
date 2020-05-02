@@ -1,60 +1,34 @@
-'use strict'
-
 module.exports = {
   siteMetadata: {
-    title: 'Photo-Beats',
-    description: 'Online visualizer which picks sound from your mic and uses provided images to create audio responsive visualisations',
-    keywords: 'music, art, artist, audio, responsive, visuals, easy, online, photos, pictures, images, web, techno, edm, soundcloud',
-    siteUrl: 'https://photo-beats.com',
-    author: {
-      name: 'Dmytro Izotov',
-      url: 'https://twitter.com/dizotoff',
-      email: 'izotov.dima@gmail.com'
-    }
+    title: `Photo-Beats`,
+    description: `Online visualizer which picks sound from your mic and uses provided images to create audio responsive visualisations, music, art, artist, audio, responsive, visuals, easy, online, photos, pictures, images, web, techno, edm, soundcloud, audio, reactive, online, visualizer`,
+    author: `@dizotoff`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'content',
-        path: `${__dirname}/src/content`
-      }
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        plugins: [
-          {
-            resolve: 'gatsby-remark-responsive-iframe',
-            options: {
-              wrapperStyle: 'margin-bottom: 1rem'
-            }
-          },
-          'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants',
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 1140,
-              quality: 90,
-              linkImagesToOriginal: false
-            }
-          }
-        ]
-      }
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
     },
-    'gatsby-transformer-json',
-    {
-      resolve: 'gatsby-plugin-canonical-urls',
-      options: {
-        siteUrl: 'https://photo-beats.com'
-      }
-    },
-    'gatsby-plugin-emotion',
-    'gatsby-plugin-typescript',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-react-helmet'
-  ]
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
+  ],
 }
