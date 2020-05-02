@@ -38,7 +38,7 @@ const IndexPage = () => (
 
         <form name="contact" method="POST" data-netlify="true">
           <Input
-            style={{ width: "200px", margin: "8px" }}
+            style={{ width: "200px", margin: "8px", zIndex: "1" }}
             name="email"
             type="email"
             placeholder="Email"
