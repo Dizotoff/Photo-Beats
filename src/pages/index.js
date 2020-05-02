@@ -35,8 +35,17 @@ const IndexPage = () => (
           when we launch!
         </Text>
 
+        <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+          <input type="email" name="email" />
+        </form>
+
         <form name="contact" method="POST" data-netlify="true">
-          <Input name="email" type="email" placeholder="Email" />
+          <Input
+            style={{ marginRight: "8px", maxWidth: "200px", marginTop: "4px" }}
+            name="email"
+            type="email"
+            placeholder="Email"
+          />
           <Button type="submit">Sent</Button>
         </form>
       </div>
