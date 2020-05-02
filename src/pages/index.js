@@ -1,10 +1,10 @@
+import "../components/layout.css"
 import React from "react"
 import Player from "../components/player"
 import SEO from "../components/seo"
 import { Button } from "antd"
 import { Typography } from "antd"
 import { Input } from "antd"
-import "../components/layout.css"
 
 const { Title } = Typography
 const { Text } = Typography
