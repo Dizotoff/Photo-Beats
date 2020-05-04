@@ -14,10 +14,10 @@ const Banner = () => (
       alignItems: "center",
       textAlign: "center",
       position: "static",
+      backgroundColor: "black",
     }}
   >
     <Player></Player>
-
     <div style={{ color: "white", zIndex: "1", maxWidth: "600px" }}>
       <Title style={{ color: "white", textAlign: "center" }}>
         REAL-TIME AUDIO REACTIVE VISUALS IN THE BROWSER
