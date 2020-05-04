@@ -1,15 +1,26 @@
 import React from "react"
-import Icon from "./../images/illustration_02.svg"
 import { Typography, Input, Button } from "antd"
 const { Text } = Typography
+
 const Canvas = () => {
   return (
-    <div style={{ height: "100vh", backgroundColor: "black" }}>
-      <Icon></Icon>
+    <div
+      style={{
+        height: "100vh",
+        height: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        flexDirection: "column",
+        alignItems: "center",
+        textAlign: "center",
+        backgroundColor: "black",
+      }}
+    >
       <p></p>
-      <Text style={{ color: "grey" }}>
+      <Text style={{ color: "white" }}>
         Submit your email and we will notify you when we launch!
       </Text>
+      <p></p>
       <form
         name="contact"
         method="post"
@@ -18,19 +29,17 @@ const Canvas = () => {
         data-netlify-honeypot="bot-field"
       >
         <input type="hidden" name="form-name" value="contact" />
-        <Input
-          style={{
-            marginRight: "8px",
-            maxWidth: "200px",
-            marginTop: "12px",
-          }}
-          name="email"
-          type="email"
-          placeholder="Email"
-        />
-        <Button type="primary" htmlType="submit">
-          Sent
-        </Button>
+        <div style={{ display: "flex" }}>
+          <Input name="email" type="email" placeholder="Email" />
+
+          <Button
+            style={{ marginLeft: "8px" }}
+            type="primary"
+            htmlType="submit"
+          >
+            Sent
+          </Button>
+        </div>
       </form>
     </div>
   )

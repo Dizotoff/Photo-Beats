@@ -1,0 +1,21 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.wrapper-image {
+  width: 40vw;
+}
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .wrapper-image {
+    width: 100vw;
+  }
+}

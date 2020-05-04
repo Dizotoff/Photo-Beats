@@ -1,5 +1,5 @@
 import React from "react"
-import { Typography } from "antd"
+import { Typography, Button } from "antd"
 import Player from "./player"
 const { Title } = Typography
 const { Text } = Typography
@@ -19,7 +19,7 @@ const Banner = () => (
     <Player></Player>
 
     <div style={{ color: "white", zIndex: "1", maxWidth: "600px" }}>
-      <Title style={{ color: "white", textAlign: "center", margin: "8px" }}>
+      <Title style={{ color: "white", textAlign: "center" }}>
         REAL-TIME AUDIO REACTIVE VISUALS IN THE BROWSER
       </Title>
       <p></p>
@@ -28,6 +28,8 @@ const Banner = () => (
         website to have it! We provide customizable audio reactive visuals right
         in your browser with zero hustle!
       </Text>
+      <p></p>
+      <Button type="primary">Get Started</Button>
     </div>
   </div>
 )
