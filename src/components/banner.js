@@ -20,38 +20,16 @@ const Banner = () => (
   >
     <Player></Player>
 
-    <div style={{ color: "white", zIndex: "1" }}>
+    <div style={{ color: "white", zIndex: "1", maxWidth: "600px" }}>
       <Title style={{ color: "white", textAlign: "center", margin: "8px" }}>
         REAL-TIME AUDIO REACTIVE VISUALS IN THE BROWSER
       </Title>
-
       <p></p>
-      <Text style={{ color: "grey" }}>
-        Submit your email and we will notify you when we launch!
+      <Text style={{ color: "white" }}>
+        Having a live performance tomorrow, but got no visuals? Just use this
+        website to have it! We provide customizable audio reactive visuals right
+        in your browser with zero hustle!
       </Text>
-
-      <form
-        name="contact"
-        method="post"
-        action="/thanks/"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-      >
-        <input type="hidden" name="form-name" value="contact" />
-        <Input
-          style={{
-            marginRight: "8px",
-            maxWidth: "200px",
-            marginTop: "12px",
-          }}
-          name="email"
-          type="email"
-          placeholder="Email"
-        />
-        <Button type="primary" htmlType="submit">
-          Sent
-        </Button>
-      </form>
     </div>
   </div>
 )
