@@ -1,7 +1,5 @@
 import React from "react"
-import { Button } from "antd"
 import { Typography } from "antd"
-import { Input } from "antd"
 import Player from "./player"
 const { Title } = Typography
 const { Text } = Typography
@@ -25,7 +23,7 @@ const Banner = () => (
         REAL-TIME AUDIO REACTIVE VISUALS IN THE BROWSER
       </Title>
       <p></p>
-      <Text style={{ color: "white" }}>
+      <Text style={{ color: "white", fontSize: "14px" }}>
         Having a live performance tomorrow, but got no visuals? Just use this
         website to have it! We provide customizable audio reactive visuals right
         in your browser with zero hustle!
