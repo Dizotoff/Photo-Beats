@@ -10,14 +10,12 @@ const Step2 = () => {
     <div className={"wrapper-step-2"}>
       <div style={{ maxWidth: "600px" }}>
         <Title style={{ color: "white" }}>Step 2</Title>
-        <Text style={{ fontSize: "16px", color: "white" }} strong>
-          Enter browser full screen mode and give permission to use your
-          microphone
+        <Text style={{ fontSize: "16px", color: "white" }}>
+          Connect a projector to your computer and make some noise.
         </Text>
         <p></p>
-        <Text style={{ fontSize: "16px", color: "white" }}>
-          No worries about your privacy! There is no recordings created, data
-          from the microphone doesn't leave your computer
+        <Text style={{ fontSize: "14px", color: "grey" }}>
+          Tablet and mobile support is on its way!
         </Text>
       </div>
       <div className={"wrapper-step-2-image"}>

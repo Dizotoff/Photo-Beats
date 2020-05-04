@@ -11,9 +11,10 @@ const Step3 = () => {
       <div style={{ maxWidth: "600px" }}>
         <Title>Step 3</Title>
         <Text style={{ fontSize: "16px" }} strong>
-          Use filters to change the visual patters, use knobs to control
-          sensitivity. Customize the soundscape visualisation with own text,
-          video or images.
+          Use filters to change the patters' color and shape, use knobs to
+          control sensitivity. Customize the soundscape visualisation with own
+          text, video or images. Perform with visuals live using computer
+          keyboard.
         </Text>
       </div>
       <div className={"wrapper-step-3-image"}>

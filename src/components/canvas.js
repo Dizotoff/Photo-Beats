@@ -16,8 +16,9 @@ const Canvas = () => {
       }}
     >
       <p></p>
-      <Text style={{ color: "white" }}>
-        Submit your email and we will notify you when we launch!
+      <Text style={{ color: "white", maxWidth: "600px" }}>
+        Unfortunatelly, the development is still in the progress. Submit your
+        email and we will notify you when we launch!
       </Text>
       <p></p>
       <form

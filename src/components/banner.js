@@ -24,9 +24,9 @@ const Banner = () => (
       </Title>
       <p></p>
       <Text style={{ color: "white", fontSize: "14px" }}>
-        Having a live performance tomorrow, but got no visuals? Just use this
-        website to have it! We provide customizable audio reactive visuals right
-        in your browser with zero hustle!
+        Having a live performance, but got no visuals? Just use our website to
+        have them in 3 easy steps! We provide customizable audio reactive
+        visuals right in your browser with zero knowledge required!
       </Text>
       <p></p>
       <Button type="primary">Get Started</Button>

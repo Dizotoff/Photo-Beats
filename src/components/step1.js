@@ -11,7 +11,14 @@ const Step1 = () => {
       <div>
         <Title>Step 1</Title>
         <Text style={{ fontSize: "16px" }} strong>
-          Connect your laptop to a projector.
+          With your computer enter browser full screen mode and give permission
+          to use your microphone.
+        </Text>
+        <p></p>
+        <Text style={{ fontSize: "14px", color: "grey" }}>
+          Utilizing sound from computer's microphone, our service produces image
+          which reacts to the soundscape. There is no record created, data from
+          the microphone doesn't leave your computer
         </Text>
       </div>
       <div className={"wrapper-image"}>
