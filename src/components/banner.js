@@ -4,7 +4,7 @@ import Player from "./player"
 const { Title } = Typography
 const { Text } = Typography
 
-const Banner = () => (
+const Banner = ({ children }) => (
   <div
     style={{
       width: "100vw",
@@ -24,12 +24,12 @@ const Banner = () => (
       </Title>
       <p></p>
       <Text style={{ color: "white", fontSize: "14px" }}>
-        Having a live performance, but got no visuals? Just use our website to
-        have them in 3 easy steps! We provide customizable audio reactive
-        visuals right in your browser with zero knowledge required!
+        Having a live performance, but got no visuals? We provide customizable
+        audio reactive visuals right in your browser with zero setup!
       </Text>
       <p></p>
       <Button type="primary">Get Started</Button>
+      {children}
     </div>
   </div>
 )

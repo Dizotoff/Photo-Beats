@@ -1,14 +1,15 @@
 .wrapper {
   height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-around;
   text-align: center;
   align-items: center;
+  background-color: white;
 }
 
 .wrapper-image {
-  width: 40vw;
+  width: 20vw;
 }
 @media only screen and (max-width: 600px) {
   .wrapper {
@@ -16,6 +17,6 @@
   }
 
   .wrapper-image {
-    width: 100vw;
+    width: 50vw;
   }
 }

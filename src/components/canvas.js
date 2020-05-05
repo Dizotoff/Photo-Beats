@@ -30,7 +30,12 @@ const Canvas = () => {
       >
         <input type="hidden" name="form-name" value="contact" />
         <div style={{ display: "flex" }}>
-          <Input name="email" type="email" placeholder="Email" />
+          <Input
+            style={{ width: "250px" }}
+            name="email"
+            type="email"
+            placeholder="Email"
+          />
 
           <Button
             style={{ marginLeft: "8px" }}

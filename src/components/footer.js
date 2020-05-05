@@ -12,9 +12,10 @@ const Footer = () => {
         alignItems: "center",
         textAlign: "center",
         position: "static",
+        backgroundColor: "black",
       }}
     >
-      <Text style={{ color: "black" }}>© Photo-Beats 2020</Text>
+      <Text style={{ color: "#86868b" }}>© Photo-Beats 2020</Text>
     </div>
   )
 }

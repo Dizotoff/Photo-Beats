@@ -5,11 +5,11 @@
   justify-content: space-around;
   text-align: center;
   align-items: center;
-  background-color: white;
+  background-color: black;
 }
 
 .wrapper-step-3-image {
-  width: 40vw;
+  width: 50vw;
 }
 @media only screen and (max-width: 600px) {
   .wrapper-step-3 {
@@ -17,6 +17,6 @@
   }
 
   .wrapper-step-3-image {
-    width: 100vw;
+    width: 90vw;
   }
 }
