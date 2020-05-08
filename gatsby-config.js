@@ -5,6 +5,15 @@ module.exports = {
     author: `@dizotoff`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /images/, // See below to configure properly
+        },
+      },
+    },
+    `gatsby-plugin-smoothscroll`,
     "gatsby-plugin-antd",
     `gatsby-plugin-react-helmet`,
     {

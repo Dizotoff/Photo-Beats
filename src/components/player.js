@@ -2,14 +2,6 @@ import React, { Component } from "react"
 import BackgroundVideo from "react-background-video-player"
 import video from "../videos/vhs.mp4"
 
-if (typeof document !== "undefined") {
-  document.body.style.position = "absolute"
-  document.body.style.margin = "0"
-  document.body.style.width = "100%"
-  document.body.style.height = "100%"
-  document.body.style.overflow = "hidden"
-}
-
 export default class Player extends Component {
   constructor(props) {
     super(props)
