@@ -5,11 +5,11 @@ import "../styles/step3.css"
 const { Text } = Typography
 const { Title } = Typography
 
-const Step3 = () => {
+const CustomizableCanvas = () => {
   return (
     <div className={"wrapper-step-3"}>
       <div style={{ maxWidth: "600px" }}>
-        <Title style={{ color: "white" }}>Customizable</Title>
+        <Title style={{ color: "white" }}>Customization</Title>
         <Text style={{ fontSize: "16px", color: "#86868b" }}>
           Use filters to change the colors and shapes, use knobs to control
           sensitivity. Customize the soundscape visualisation with own text,
@@ -24,4 +24,4 @@ const Step3 = () => {
   )
 }
 
-export default Step3
+export default CustomizableCanvas

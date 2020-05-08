@@ -2,7 +2,7 @@ import React from "react"
 import { Typography, Input, Button } from "antd"
 const { Text } = Typography
 
-const Canvas = () => {
+const Contact = () => {
   return (
     <div
       style={{
@@ -50,4 +50,4 @@ const Canvas = () => {
   )
 }
 
-export default Canvas
+export default Contact

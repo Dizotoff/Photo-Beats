@@ -5,21 +5,19 @@ import "../styles/step1.css"
 const { Text } = Typography
 const { Title } = Typography
 
-const Step1 = () => {
+const MicCanvas = () => {
   return (
     <div className={"wrapper"}>
       <div style={{ maxWidth: "600px" }}>
-        <Title style={{ color: "#222222" }}>
-          Use your microphone to capture the soundscape
-        </Title>
+        <Title style={{ color: "#222222" }}>Wireless</Title>
 
         <p></p>
 
         <Text style={{ fontSize: "16px", color: "#86868b" }}>
-          No more wires! Utilizing sound from laptop's build-in microphone, our
-          service produces visuals which reacts to the soundscape in real time.
-          There is no record created whatsoever, data from your mic never leaves
-          your computer.
+          Utilizing sound input from laptop's build-in microphone, our service
+          produces visuals which reacts to the soundscape in real time. There is
+          no record created whatsoever, data from your mic never leaves your
+          computer.
         </Text>
         <p></p>
         <Text style={{ fontSize: "12px", color: "#86868b" }}>
@@ -33,4 +31,4 @@ const Step1 = () => {
   )
 }
 
-export default Step1
+export default MicCanvas

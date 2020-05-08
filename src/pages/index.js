@@ -2,23 +2,26 @@ import "../styles/layout.css"
 import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
-import Banner from "../components/banner"
-import Canvas from "../components/canvas"
-import Step1 from "../components/step1"
-import Step2 from "../components/step2"
-import Step3 from "../components/step3"
-import Footer from "../components/footer"
+import Banner from "../components/Banner"
+import Contact from "../components/Contact"
+import MicCanvas from "../components/MicCanvas"
+import SetupCanvas from "../components/SetupCanvas"
+import CustomizableCanvas from "../components/CustomizableCanvas"
+import Footer from "../components/Footer"
 
 const IndexPage = () => {
   return (
     <>
-      <SEO title="Home" />
+      <SEO
+        title="Home"
+        description="We provide customizable audio reactive visuals right in browser using microphone with zero setup!"
+      />
       <Layout>
         <Banner></Banner>
-        <Step2></Step2>
-        <Step3></Step3>
-        <Step1></Step1>
-        <Canvas></Canvas>
+        <SetupCanvas></SetupCanvas>
+        <CustomizableCanvas></CustomizableCanvas>
+        <MicCanvas></MicCanvas>
+        <Contact></Contact>
         <Footer></Footer>
       </Layout>
     </>

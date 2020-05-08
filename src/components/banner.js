@@ -25,7 +25,8 @@ const Banner = ({ children }) => (
       <p></p>
       <Text style={{ color: "white", fontSize: "14px" }}>
         Having a live performance, but got no visuals? We provide customizable
-        audio reactive visuals right in your browser with zero setup!
+        audio reactive visuals right in browser using microphone with zero
+        setup!
       </Text>
       <p></p>
       <Button type="primary">Get Started</Button>
