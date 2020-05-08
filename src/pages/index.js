@@ -4,9 +4,9 @@ import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Banner from "../components/banner"
 import Contact from "../components/contact"
-import MicCanvas from "../components/MicCanvas"
-import SetupCanvas from "../components/SetupCanvas"
-import CustomizableCanvas from "../components/CustomizableCanvas"
+import MicCanvas from "../components/micCanvas"
+import SetupCanvas from "../components/setupCanvas"
+import CustomizableCanvas from "../components/customizableCanvas"
 import Footer from "../components/footer"
 
 const IndexPage = () => {
