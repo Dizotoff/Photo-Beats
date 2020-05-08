@@ -33,7 +33,6 @@ const Banner = ({ children }) => (
       <Button type="primary" ghost onClick={() => scrollTo("#contact")}>
         Get Started
       </Button>
-      {children}
     </div>
   </div>
 )

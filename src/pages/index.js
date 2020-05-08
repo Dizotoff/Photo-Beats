@@ -1,14 +1,13 @@
 import "../styles/layout.css"
 import React from "react"
-
 import SEO from "../components/seo"
 import Layout from "../components/layout"
-import Banner from "../components/Banner"
-import Contact from "../components/Contact"
+import Banner from "../components/banner"
+import Contact from "../components/contact"
 import MicCanvas from "../components/MicCanvas"
 import SetupCanvas from "../components/SetupCanvas"
 import CustomizableCanvas from "../components/CustomizableCanvas"
-import Footer from "../components/Footer"
+import Footer from "../components/footer"
 
 const IndexPage = () => {
   return (
@@ -20,7 +19,6 @@ const IndexPage = () => {
 
       <Layout>
         <Banner></Banner>
-
         <SetupCanvas></SetupCanvas>
         <CustomizableCanvas></CustomizableCanvas>
         <MicCanvas></MicCanvas>
