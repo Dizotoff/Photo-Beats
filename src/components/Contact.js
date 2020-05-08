@@ -16,7 +16,7 @@ const Contact = () => {
       }}
     >
       <p></p>
-      <Text style={{ color: "white", maxWidth: "600px" }}>
+      <Text style={{ color: "white", maxWidth: "600px", fontSize: "16px" }}>
         Unfortunatelly, the development is still in the progress. Submit your
         email and we will notify you when we launch!
       </Text>

@@ -1,5 +1,6 @@
 import "../styles/layout.css"
 import React from "react"
+
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Banner from "../components/Banner"
@@ -16,13 +17,17 @@ const IndexPage = () => {
         title="Home"
         description="We provide customizable audio reactive visuals right in browser using microphone with zero setup!"
       />
+
       <Layout>
         <Banner></Banner>
+
         <SetupCanvas></SetupCanvas>
         <CustomizableCanvas></CustomizableCanvas>
         <MicCanvas></MicCanvas>
         <Contact></Contact>
-        <Footer></Footer>
+        <div id="contact">
+          <Footer></Footer>
+        </div>
       </Layout>
     </>
   )

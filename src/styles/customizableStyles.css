@@ -1,22 +1,22 @@
-.wrapper-step-2 {
+.wrapper-step-3 {
   height: 100vh;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-around;
   text-align: center;
   align-items: center;
-  background-color: white;
+  background-color: black;
 }
 
-.wrapper-step-2-image {
+.wrapper-step-3-image {
   width: 50vw;
 }
 @media only screen and (max-width: 600px) {
-  .wrapper-step-2 {
+  .wrapper-step-3 {
     flex-direction: column;
   }
 
-  .wrapper-step-2-image {
+  .wrapper-step-3-image {
     width: 100vw;
   }
 }

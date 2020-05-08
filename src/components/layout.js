@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 const Layout = ({ children }) => {
-  return <div>{children}</div>
+  return <main>{children}</main>
 }
 
 Layout.propTypes = {

@@ -1,7 +1,7 @@
 import React from "react"
 import { Typography } from "antd"
 import Icon from "../images/microphone.svg"
-import "../styles/step1.css"
+import "../styles/micStyles.css"
 const { Text } = Typography
 const { Title } = Typography
 
@@ -13,7 +13,7 @@ const MicCanvas = () => {
 
         <p></p>
 
-        <Text style={{ fontSize: "16px", color: "#86868b" }}>
+        <Text style={{ fontSize: "16px", color: "#86868b", padding: "8px" }}>
           Utilizing sound input from laptop's build-in microphone, our service
           produces visuals which reacts to the soundscape in real time. There is
           no record created whatsoever, data from your mic never leaves your
