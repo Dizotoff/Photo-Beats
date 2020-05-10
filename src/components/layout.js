@@ -4,12 +4,12 @@
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
-
+import "../styles/layout.css"
 import React from "react"
 import PropTypes from "prop-types"
 
 const Layout = ({ children }) => {
-  return <main>{children}</main>
+  return <div className="layout-wrapper">{children}</div>
 }
 
 Layout.propTypes = {
