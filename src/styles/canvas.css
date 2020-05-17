@@ -1,0 +1,23 @@
+.canvas-wrapper {
+}
+.canvas-content {
+  flex-direction: row;
+  width: 80%;
+}
+.canvas-image {
+  width: 50vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .canvas-wrapper {
+  }
+
+  .canvas-content {
+    flex-direction: column !important;
+    width: 100%;
+  }
+
+  .canvas-image {
+    width: 90vw;
+  }
+}
